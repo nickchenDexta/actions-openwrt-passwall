@@ -106,7 +106,7 @@ jobs:
         name: OpenWrt_directory
         path: openwrt/bin
 
-    - name: Organize files
+    - name: Organize files 
       id: organize
       if: env.UPLOAD_FIRMWARE == 'true' && !cancelled()
       run: |
